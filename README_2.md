@@ -14,17 +14,15 @@
 
 # **Ответ**
 
-Окно авторизации в админке Забикс  <img src = "img/HW1_task1_screen3_залогинился в систему.jpg" width = 100%>
+Окно авторизации в админке Забикс  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task1_screen3_залогинился в систему.jpg" width = 100%>
 
 **Текст использованные команд**:  
-1. В формате скриншота:
+1. Скриншот:
 
-<img src = "img/HW1_task1_screen1_ip address системы и команды для устанвоки забикса.jpg" width = 100%>
+<img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task1_screen1_ip address системы и команды для устанвоки забикса.jpg" width = 100%>
  
-<img src = "img/HW1_task1_screen2_команды в всистеме.jpg" width = 100%>  
-
-# **В формате текста:**
-
+<img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task1_screen2_команды в всистеме.jpg" width = 100%>
+ 
 **Ставлю PostgreSQL**
 ```
 # sudo apt install postgresql
@@ -81,18 +79,17 @@ http://192.168.8.137/zabbix/
 - Приложите в файл README.md текст использованных команд в GitHub.  
 
 # **Ответ**
-# **В формате скриншотов:**
-- cкриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу:  <img src = "img/HW1_task2_screen1_Configuration _Hosts.jpg" width = 100%>
 
-- cкриншот лога zabbix agent, где видно, что он работает с сервером:  <img src = "img/HW1_task2_screen1_zabbix agent log.jpg" width = 100%>
+Cкриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу:  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task2_screen1_Configuration _Hosts.jpg" width = 100%>
 
-- cкриншот (часть1) раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные:  <img src = "img/HW1_task2_screen1_Monitoring_Latest data_1.jpg" width = 100%>
+Cкриншот лога zabbix agent, где видно, что он работает с сервером:  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task2_screen1_zabbix agent log.jpg" width = 100%>
 
-- cкриншот (часть2) раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные:  <img src = "img/HW1_task2_screen1_Monitoring_Latest data_2.jpg" width = 100%>
+Cкриншот 1 раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные:  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task2_screen1_Monitoring_Latest data_1.jpg" width = 100%>
 
-- cкриншот (часть3) раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные:  <img src = "img/HW1_task2_screen1_Monitoring_Latest data_3.jpg" width = 100%>
+Cкриншот 2 раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные:  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task2_screen1_Monitoring_Latest data_2.jpg" width = 100%>
 
-# **В формате текста:**
+Cкриншот 3 раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные:  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task2_screen1_Monitoring_Latest data_3.jpg" width = 100%>
+
 **Добавляю репозиторий Zabbix:**
 ```
 # wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/
@@ -124,4 +121,4 @@ sudo nano /etc/zabbix/zabbix_agentd.conf
 
 # **Ответ**
 
-Cкриншот раздела Latest Data, где видно свободное место на диске C:  <img src = "img/HW1_task3_windows_mashine_disk.jpg" width = 100%>
+Cкриншот раздела Latest Data, где видно свободное место на диске C:  <img src = "/home/arseniy/learning/monitoring/hw1/img/HW1_task3_windows_mashine_disk.jpg" width = 100%>
